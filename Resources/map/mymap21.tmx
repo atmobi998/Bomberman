@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="39" height="11" tilewidth="60" tileheight="60">
+ <tileset firstgid="1" name="color" tilewidth="60" tileheight="60">
+  <image source="color.png" width="240" height="60"/>
+  <tile id="1">
+   <properties>
+    <property name="Blastable" value="False"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Blastable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="map1" tilewidth="60" tileheight="60">
+  <image source="map1.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="54" name="map2" tilewidth="60" tileheight="60">
+  <image source="map2.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="103" name="map3" tilewidth="60" tileheight="60">
+  <image source="map3.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="152" name="map4" tilewidth="60" tileheight="60">
+  <image source="map4.png" width="420" height="420"/>
+ </tileset>
+ <layer name="BG" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzLZ2BgyB/Fo3gUj+JRPIqHAAYADWe6BA==
+  </data>
+ </layer>
+ <layer name="NonDestructive" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxLZ2BgSB/EeDACZLeVDzJ6NNzIo0fDjTx6NNzIo4dCuA1WDABFgkgZ
+  </data>
+ </layer>
+ <layer name="Foreground" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzVk1EKwCAMQ72/l/ZrP+Ml6SwDDQyrzdJa4hh3YEI8IX7z6HN5VcNxXK876P7/aFDftKfajq90nT7dSdXuIummOslrdO58WOW7ue727/Jf51TdJ1+onOMrP6W1g7/et9JU/qJVxWmmxCe/nowF5U5Glw==
+  </data>
+ </layer>
+ <layer name="Meta" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzNVEEKwDAIk/b/f94pICFRSxlbQWLV6sxsV0SsHwvWFvoWOscpqfyuRhZ8G/QgdPYp3p5HDtWb2ufF9uq8ylPZ8z9Vfd72Pc3r6kDvZk3ZqzmcxjteO94Yp/5TntyeeevmwvmqeOXvkHk7xbfuN5DfNzdfCp3ecariufbXb34nD8OrAtc=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="39" height="11">
+  <object name="StartPoint" type="player" x="89" y="331"/>
+  <object name="enemy" x="929" y="393"/>
+  <object name="wall" x="809" y="208"/>
+  <object name="enemy" x="329" y="93"/>
+  <object name="enemy" x="1291" y="332"/>
+  <object name="enemy" x="569" y="330"/>
+  <object name="wall" x="2127" y="388"/>
+  <object name="enemy" x="693" y="275"/>
+  <object name="enemy" x="1774" y="574"/>
+  <object name="enemy" x="1707" y="450"/>
+  <object name="enemy" x="809" y="270"/>
+  <object name="enemy" x="334" y="571"/>
+  <object name="fast" x="1053" y="569"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="39" height="11" tilewidth="60" tileheight="60">
+ <tileset firstgid="1" name="color" tilewidth="60" tileheight="60">
+  <image source="color.png" width="240" height="60"/>
+  <tile id="1">
+   <properties>
+    <property name="Blastable" value="False"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Blastable" value="True"/>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="map1" tilewidth="60" tileheight="60">
+  <image source="map1.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="54" name="map2" tilewidth="60" tileheight="60">
+  <image source="map2.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="103" name="map3" tilewidth="60" tileheight="60">
+  <image source="map3.png" width="420" height="420"/>
+ </tileset>
+ <tileset firstgid="152" name="map4" tilewidth="60" tileheight="60">
+  <image source="map4.png" width="420" height="420"/>
+ </tileset>
+ <layer name="BG" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzLZ2BgyB/Fo3gUj+JRPIqHAAYADWe6BA==
+  </data>
+ </layer>
+ <layer name="NonDestructive" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxLZ2BgSB/EeDACZLeVDzJ6NNzIo0fDjTx6NNzIo4dCuA1WDABFgkgZ
+  </data>
+ </layer>
+ <layer name="Foreground" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzVU0cKACAM6//9tCdBJKMu0F66YqshRvxhBcQFxKrW91if7VAYddcV2z3fZjhOxl2onuHU4cc9QWon3p2Z6/Y4raE6y2fwitfV+6v+LE/Z3OmC9RSe6cn5Hbv1v9lMpi/kWew4RXik15etAp2AR60=
+  </data>
+ </layer>
+ <layer name="Meta" width="39" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzNVEEKwDAIk/b/f94pIJI0ShnbQJKqqzOzXRGxfmx4NuGb8JMvx1Rc1ciGbwOPgsrfxdv3sYfTJPcZwt/R1OUD8z9lfd723d1X1QF3s8b8aj3JV7o63Sp241Od1Lrq5uZCxU75LO6w6jbFt843sN5var4YKu40Zfm19td3vrMH40MC3Q==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="39" height="11">
+  <object name="StartPoint" type="player" x="89" y="331"/>
+  <object name="enemy" x="929" y="393"/>
+  <object name="wall" x="809" y="208"/>
+  <object name="enemy" x="329" y="93"/>
+  <object name="enemy" x="1291" y="332"/>
+  <object name="enemy" x="569" y="330"/>
+  <object name="wall" x="2127" y="388"/>
+  <object name="wall" x="693" y="275"/>
+  <object name="enemy" x="1774" y="574"/>
+  <object name="enemy" x="1707" y="450"/>
+  <object name="enemy" x="809" y="270"/>
+  <object name="enemy" x="334" y="571"/>
+  <object name="fast" x="1053" y="569"/>
+  <object name="wall" x="567" y="148"/>
+  <object name="wall" x="329" y="388"/>
+  <object name="fast" x="926" y="91"/>
+  <object name="fast" x="1170" y="269"/>
+  <object name="fast" x="1770" y="143"/>
+  <object name="fast" x="2069" y="211"/>
+  <object name="wall" x="327" y="269"/>
+  <object name="smart" x="1709" y="334"/>
+ </objectgroup>
+</map>

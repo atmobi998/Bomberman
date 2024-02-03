@@ -1,0 +1,1351 @@
+ninja: Entering directory `/home/devmob/devmob_dev/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/MyGame.dir/Classes/GameScene.cpp.o
+In file included from ../../../../../../Classes/GameScene.cpp:1:
+In file included from ../../../../../../Classes/GameScene.h:6:
+../../../../../../Classes/Boom.h:21:2: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        LabelTTF *time_lb;
+        ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+In file included from ../../../../../../Classes/GameScene.cpp:1:
+../../../../../../Classes/GameScene.h:39:2: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        LabelTTF *lb_live;
+        ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+In file included from ../../../../../../Classes/GameScene.cpp:1:
+../../../../../../Classes/GameScene.h:40:2: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        LabelTTF *lb_numboom;
+        ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+In file included from ../../../../../../Classes/GameScene.cpp:1:
+../../../../../../Classes/GameScene.h:41:2: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        LabelTTF *lb_range;
+        ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+In file included from ../../../../../../Classes/GameScene.cpp:1:
+../../../../../../Classes/GameScene.h:42:2: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        LabelTTF *lb_speed;
+        ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:17:1: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+CCScene* GameScene::scene()
+^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:20:2: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+        CCScene *scene = CCScene::create();
+        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:20:26: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+        CCScene *scene = CCScene::create();
+                                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:36:14: warning: 'CCLayer' is deprecated [-Wdeprecated-declarations]
+        if (!CCLayer::init())
+                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:743:1: note: 'CCLayer' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Layer CCLayer;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:40:20: warning: 'sharedSpriteFrameCache' is deprecated [-Wdeprecated-declarations]
+        SpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("InGame.plist");
+                          ^
+../../../../../../cocos2d/cocos/2d/CCSpriteFrameCache.h:148:5: note: 'sharedSpriteFrameCache' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static SpriteFrameCache* sharedSpriteFrameCache() { return SpriteFrameCache::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:41:8: warning: 'setKeypadEnabled' is deprecated [-Wdeprecated-declarations]
+        this->setKeypadEnabled(true);
+              ^
+../../../../../../cocos2d/cocos/2d/CCLayer.h:239:5: note: 'setKeypadEnabled' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual void setKeypadEnabled(bool value);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:42:17: warning: 'CCLayer' is deprecated [-Wdeprecated-declarations]
+        layerui=CCLayer::create();
+                       ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:743:1: note: 'CCLayer' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Layer CCLayer;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:63:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _joystick->setPosition(ccp(-(this->getPositionX()),-48));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:70:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        bannertop->setPosition(ccp(0,660));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:74:28: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        bannerbottom->setPosition(ccp(0,-60));
+                                  ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:78:24: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        liveicon->setPosition(ccp(300,660));
+                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:81:20: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        lb_live=CCLabelTTF::create("","arial",40);
+                          ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:82:23: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        lb_live->setPosition(ccp(390,690));
+                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:83:29: warning: 'CCString' is deprecated [-Wdeprecated-declarations]
+        lb_live->setString(CCString::createWithFormat("%d", live)->getCString());
+                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:1109:1: note: 'CCString' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef __String CCString;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:86:24: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        boomicon->setPosition(ccp(420,660));
+                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:89:23: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        lb_numboom=CCLabelTTF::create("","arial",40);
+                             ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:90:26: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        lb_numboom->setPosition(ccp(510,690));
+                                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:93:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        rangeicon->setPosition(ccp(540,660));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:96:21: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        lb_range=CCLabelTTF::create("","arial",40);
+                           ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:97:24: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        lb_range->setPosition(ccp(630,690));
+                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:102:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        speedicon->setPosition(ccp(660,660));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:105:21: warning: 'LabelTTF' is deprecated [-Wdeprecated-declarations]
+        lb_speed=CCLabelTTF::create("","arial",40);
+                           ^
+../../../../../../cocos2d/cocos/2d/CCLabelTTF.h:68:14: note: 'LabelTTF' has been explicitly marked deprecated here
+class CC_DLL CC_DEPRECATED_ATTRIBUTE LabelTTF : public Node, public LabelProtocol, public BlendProtocol
+             ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:106:24: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        lb_speed->setPosition(ccp(780,690));
+                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:112:62: warning: 'UI_TEX_TYPE_LOCAL' is deprecated [-Wdeprecated-declarations]
+        controls_butt_a->loadTextures("bt_A1.png", "bt_A2.png", "", UI_TEX_TYPE_LOCAL);
+                                                                    ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:46:1: note: 'UI_TEX_TYPE_LOCAL' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_LOCAL = Widget::TextureResType::LOCAL;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:113:31: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        controls_butt_a->setPosition(ccp(1000, 50));
+                                     ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:117:19: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        controls_butt_a->addTouchEventListener(this,toucheventselector(GameScene::Controls_Butt_A));
+                         ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:121:61: warning: 'UI_TEX_TYPE_LOCAL' is deprecated [-Wdeprecated-declarations]
+        controls_butt_b->loadTextures("bt_B1.png", "bt_B2.png", "",UI_TEX_TYPE_LOCAL);
+                                                                   ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:46:1: note: 'UI_TEX_TYPE_LOCAL' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_LOCAL = Widget::TextureResType::LOCAL;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:122:31: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        controls_butt_b->setPosition(ccp(1190, 210));
+                                     ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:126:19: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        controls_butt_b->addTouchEventListener(this,toucheventselector(GameScene::Controls_Butt_B));
+                         ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:130:54: warning: 'UI_TEX_TYPE_PLIST' is deprecated [-Wdeprecated-declarations]
+        btn_pause->loadTextures("pause.png","pause1.png","",UI_TEX_TYPE_PLIST);
+                                                            ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:47:1: note: 'UI_TEX_TYPE_PLIST' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_PLIST = Widget::TextureResType::PLIST;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:131:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        btn_pause->setPosition(ccp(1150,610));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:135:13: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        btn_pause->addTouchEventListener(this,toucheventselector(GameScene::pausegame));
+                   ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:156:38: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                Point point = tileCoordForPosition(ccp(x1 * 60 + xx, y1 * 60 + yy));
+                                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:159:46: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        Boom *_boom = Boom::nodeWithTheGame(this, ccp(x1 * 60 + xx, y1 * 60 + yy));
+                                                                  ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:186:4: warning: 'CCAnimate' is deprecated [-Wdeprecated-declarations]
+                        CCAnimate* actionanimation = MyAnimate::getInstance()->createAnimationFramCache("br_up",1,2,0.25f / 2.0f);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:656:1: note: 'CCAnimate' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Animate CCAnimate;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:187:4: warning: 'CCAction' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:619:1: note: 'CCAction' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Action CCAction;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:187:36: warning: 'CCRepeatForever' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                                                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:635:1: note: 'CCRepeatForever' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef RepeatForever CCRepeatForever;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:207:4: warning: 'CCAnimate' is deprecated [-Wdeprecated-declarations]
+                        CCAnimate* actionanimation = MyAnimate::getInstance()->createAnimationFramCache("br_down",1,2,0.25f / 2.0f);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:656:1: note: 'CCAnimate' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Animate CCAnimate;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:208:4: warning: 'CCAction' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:619:1: note: 'CCAction' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Action CCAction;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:208:36: warning: 'CCRepeatForever' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                                                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:635:1: note: 'CCRepeatForever' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef RepeatForever CCRepeatForever;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:228:4: warning: 'CCAnimate' is deprecated [-Wdeprecated-declarations]
+                        CCAnimate* actionanimation = MyAnimate::getInstance()->createAnimationFramCache("br_left",1,2,0.25f / 2.0f);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:656:1: note: 'CCAnimate' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Animate CCAnimate;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:229:4: warning: 'CCAction' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:619:1: note: 'CCAction' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Action CCAction;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:229:36: warning: 'CCRepeatForever' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                                                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:635:1: note: 'CCRepeatForever' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef RepeatForever CCRepeatForever;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:250:4: warning: 'CCAnimate' is deprecated [-Wdeprecated-declarations]
+                        CCAnimate* actionanimation = MyAnimate::getInstance()->createAnimationFramCache("br_right",1,2,0.25f / 2.0f);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:656:1: note: 'CCAnimate' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Animate CCAnimate;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:251:4: warning: 'CCAction' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:619:1: note: 'CCAction' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Action CCAction;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:251:36: warning: 'CCRepeatForever' is deprecated [-Wdeprecated-declarations]
+                        CCAction *action=CCRepeatForever::create(actionanimation);
+                                                        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:635:1: note: 'CCRepeatForever' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef RepeatForever CCRepeatForever;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:300:9: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        return ccp(x, y);
+               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:306:9: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        return ccp(x, y);
+               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:313:30: warning: 'CCString' is deprecated [-Wdeprecated-declarations]
+        lb_speed->setString(CCString::createWithFormat("x %.1f",float(speed)/float(SPEEDPLAYER))->getCString());
+                                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:1109:1: note: 'CCString' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef __String CCString;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:314:29: warning: 'CCString' is deprecated [-Wdeprecated-declarations]
+        lb_live->setString(CCString::createWithFormat("%d", live)->getCString());
+                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:1109:1: note: 'CCString' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef __String CCString;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:315:32: warning: 'CCString' is deprecated [-Wdeprecated-declarations]
+        lb_numboom->setString(CCString::createWithFormat("%d", numboom)->getCString());
+                                      ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:1109:1: note: 'CCString' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef __String CCString;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:316:30: warning: 'CCString' is deprecated [-Wdeprecated-declarations]
+        lb_range->setString(CCString::createWithFormat("%d", range)->getCString());
+                                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:1109:1: note: 'CCString' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef __String CCString;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:334:38: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                if (isMoveUp&&CheckCollisionPlayer(ccp(location.x, location.y + s + yy)))
+                                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:338:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        _player->setPosition(ccp(location.x, location.y + s));
+                                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:340:40: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                if (isMoveDown&&CheckCollisionPlayer(ccp(location.x, location.y - s - yy)))
+                                                     ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:344:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        _player->setPosition(ccp(location.x, location.y - s));
+                                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:346:40: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                if (isMoveLeft&&CheckCollisionPlayer(ccp(location.x - s - xx, location.y)))
+                                                     ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:350:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        _player->setPosition(ccp(location.x - s, location.y));
+                                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:352:41: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                if (isMoveRight&&CheckCollisionPlayer(ccp(location.x + s + xx, location.y)))
+                                                      ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:356:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        _player->setPosition(ccp(location.x + s, location.y));
+                                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:360:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _joystick->setPosition(ccp(-(this->getPositionX()),-48));
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:379:23: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _player->setPosition(ccp(x1, y1 * h + yy));
+                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:389:23: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _player->setPosition(ccp(x1 * w + xx, y1));
+                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:3: warning: 'CCAction' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:619:1: note: 'CCAction' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Action CCAction;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:31: warning: 'CCSequence' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                            ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:633:1: note: 'CCSequence' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Sequence CCSequence;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:51: warning: 'CCDelayTime' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:655:1: note: 'CCDelayTime' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef DelayTime CCDelayTime;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:78: warning: 'CCCallFuncN' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                                           ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:691:1: note: 'CCCallFuncN' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef CallFuncN CCCallFuncN;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:80: warning: 'create' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                                             ^
+../../../../../../cocos2d/cocos/2d/CCActionInstant.h:441:5: note: 'create' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static CallFuncN * create(Ref* target, SEL_CallFuncN selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:150: warning: 'CCDelayTime' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                                                                                                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:655:1: note: 'CCDelayTime' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef DelayTime CCDelayTime;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:177: warning: 'CCCallFuncN' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                                                                                                                                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:691:1: note: 'CCCallFuncN' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef CallFuncN CCCallFuncN;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:400:179: warning: 'create' is deprecated [-Wdeprecated-declarations]
+                CCAction*action = CCSequence::create(CCDelayTime::create(1.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::PlayerDieDone)),CCDelayTime::create(5.0f), CCCallFuncN::create(this, callfuncN_selector(GameScene::ThenPlayerDieDone)), NULL);
+                                                                                                                                                                                                ^
+../../../../../../cocos2d/cocos/2d/CCActionInstant.h:441:5: note: 'create' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static CallFuncN * create(Ref* target, SEL_CallFuncN selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:429:2: warning: 'CCActionInterval' is deprecated [-Wdeprecated-declarations]
+        CCActionInterval *blink=CCBlink::create(5,15);
+        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:632:1: note: 'CCActionInterval' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef ActionInterval CCActionInterval;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:429:33: warning: 'CCBlink' is deprecated [-Wdeprecated-declarations]
+        CCActionInterval *blink=CCBlink::create(5,15);
+                                       ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:649:1: note: 'CCBlink' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Blink CCBlink;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:445:19: warning: 'boundingBox' is deprecated [-Wdeprecated-declarations]
+                if (bonus_boom->boundingBox().containsPoint(location1))
+                                ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1200:5: note: 'boundingBox' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual Rect boundingBox() const { return getBoundingBox(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:453:20: warning: 'boundingBox' is deprecated [-Wdeprecated-declarations]
+                if (bonus_range->boundingBox().containsPoint(location1))
+                                 ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1200:5: note: 'boundingBox' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual Rect boundingBox() const { return getBoundingBox(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:461:20: warning: 'boundingBox' is deprecated [-Wdeprecated-declarations]
+                if (bonus_speed->boundingBox().containsPoint(location1))
+                                 ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1200:5: note: 'boundingBox' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual Rect boundingBox() const { return getBoundingBox(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:469:13: warning: 'boundingBox' is deprecated [-Wdeprecated-declarations]
+                if (_key->boundingBox().containsPoint(location1))
+                          ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1200:5: note: 'boundingBox' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual Rect boundingBox() const { return getBoundingBox(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:477:14: warning: 'boundingBox' is deprecated [-Wdeprecated-declarations]
+                if (_door->boundingBox().containsPoint(location1)&&isKey&&numenemy<1)
+                           ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1200:5: note: 'boundingBox' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE virtual Rect boundingBox() const { return getBoundingBox(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:500:29: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        bonus_boom->setAnchorPoint(ccp(0,1));
+                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:515:30: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        bonus_speed->setAnchorPoint(ccp(0,1));
+                                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:530:24: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _door->setAnchorPoint(ccp(0,1));
+                              ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:545:23: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        _key->setAnchorPoint(ccp(0,1));
+                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:560:30: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        bonus_range->setAnchorPoint(ccp(0,1));
+                                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:617:26: warning: 'layerNamed' is deprecated [-Wdeprecated-declarations]
+        _foreground = _tileMap->layerNamed("Foreground");
+                                ^
+../../../../../../cocos2d/cocos/2d/CCTMXTiledMap.h:163:5: note: 'layerNamed' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE TMXLayer* layerNamed(const std::string& layerName) const { return getLayer(layerName); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:618:30: warning: 'layerNamed' is deprecated [-Wdeprecated-declarations]
+        _nondestructive = _tileMap->layerNamed("NonDestructive");
+                                    ^
+../../../../../../cocos2d/cocos/2d/CCTMXTiledMap.h:163:5: note: 'layerNamed' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE TMXLayer* layerNamed(const std::string& layerName) const { return getLayer(layerName); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:619:20: warning: 'layerNamed' is deprecated [-Wdeprecated-declarations]
+        _meta = _tileMap->layerNamed("Meta");
+                          ^
+../../../../../../cocos2d/cocos/2d/CCTMXTiledMap.h:163:5: note: 'layerNamed' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE TMXLayer* layerNamed(const std::string& layerName) const { return getLayer(layerName); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:622:26: warning: 'objectGroupNamed' is deprecated [-Wdeprecated-declarations]
+        objectGroup = _tileMap->objectGroupNamed("Objects");
+                                ^
+../../../../../../cocos2d/cocos/2d/CCTMXTiledMap.h:175:5: note: 'objectGroupNamed' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE TMXObjectGroup* objectGroupNamed(const std::string& groupName) const { return getObjectGroup(groupName); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:642:25: warning: 'tileGIDAt' is deprecated [-Wdeprecated-declarations]
+                        int tileGid = _meta->tileGIDAt(ccp(i, j));
+                                             ^
+../../../../../../cocos2d/cocos/2d/CCTMXLayer.h:129:5: note: 'tileGIDAt' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE uint32_t tileGIDAt(const Vec2& tileCoordinate, TMXTileFlags* flags = nullptr){
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:642:35: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        int tileGid = _meta->tileGIDAt(ccp(i, j));
+                                                       ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:644:33: warning: 'propertiesForGID' is deprecated [-Wdeprecated-declarations]
+                                auto properties = _tileMap->propertiesForGID(tileGid).asValueMap();
+                                                            ^
+../../../../../../cocos2d/cocos/2d/CCTMXTiledMap.h:195:5: note: 'propertiesForGID' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE Value propertiesForGID(int GID) const { return getPropertiesForGID(GID); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:652:56: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                                                pointbrick->addControlPoint(PositionFortileCoord(ccp(i,j)));
+                                                                                                 ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:663:33: warning: 'objectNamed' is deprecated [-Wdeprecated-declarations]
+        auto startpoint = objectGroup->objectNamed("StartPoint");
+                                       ^
+../../../../../../cocos2d/cocos/2d/CCTMXObjectGroup.h:88:5: note: 'objectNamed' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE ValueMap objectNamed(const std::string& objectName) const { return getObject(objectName); };
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:689:49: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        Enemy *_enemy = Enemy::nodeWithTheGame(this, ccp(x, y));
+                                                                     ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:693:64: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        EnemySmart *_enemysmart = EnemySmart::nodeWithTheGame(this, ccp(x, y));
+                                                                                    ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:697:61: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        EnemyFast *_enemyfast = EnemyFast::nodeWithTheGame(this, ccp(x, y));
+                                                                                 ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:701:82: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                        EnemyThroughwall *_enemythroughwall = EnemyThroughwall::nodeWithTheGame(this, ccp(x, y));
+                                                                                                      ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:716:2: warning: 'CCSize' is deprecated [-Wdeprecated-declarations]
+        CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+        ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:835:1: note: 'CCSize' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Size CCSize;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:716:29: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+        CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+                                   ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:716:31: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+        CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+                                     ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:721:25: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        Point actualPosition = ccp(x, y);
+                               ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:722:23: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        Point centerOfView = ccp(winSize.width/2, winSize.height/2);
+                             ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:723:20: warning: 'ccpSub' is deprecated [-Wdeprecated-declarations]
+        Point viewPoint = ccpSub(centerOfView, actualPosition);
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:140:1: note: 'ccpSub' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE static inline Vec2
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:724:20: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+        this->setPosition(ccp(viewPoint.x,48));
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:738:59: warning: 'ccp' is deprecated [-Wdeprecated-declarations]
+                                EnemyFast *_enemyfast=EnemyFast::nodeWithTheGame(this,ccp(location.x+30,location.y-30));
+                                                                                      ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:108:1: note: 'ccp' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE inline Vec2 ccp(float x, float y)
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:753:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->pause();
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:753:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->pause();
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:761:14: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+                btnreplay->addTouchEventListener((Ref*)this,toucheventselector(GameScene::restart));
+                           ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:764:12: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+                btnmenu->addTouchEventListener((Ref*)this,toucheventselector(GameScene::backmenu));
+                         ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:767:14: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+                btnresume->addTouchEventListener((Ref*)this,toucheventselector(GameScene::resume));
+                           ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:779:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:779:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:813:3: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+                CCScene *pscene =GameScene::scene();
+                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:814:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:814:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:815:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:815:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:828:3: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+                CCScene *pscene =Level::scene();
+                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:829:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:829:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:830:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();         
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:830:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();         
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:848:3: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+                CCScene *pscene =GameScene::scene();
+                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:849:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:849:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:850:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();         
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:850:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();         
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:856:12: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+        CCDirector::sharedDirector()->pause();
+                  ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:856:14: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+        CCDirector::sharedDirector()->pause();
+                    ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:857:8: warning: 'unscheduleAllSelectors' is deprecated [-Wdeprecated-declarations]
+        this->unscheduleAllSelectors();
+              ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1499:5: note: 'unscheduleAllSelectors' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void unscheduleAllSelectors() { unscheduleAllCallbacks(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:865:13: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        btnreplay->addTouchEventListener(this,toucheventselector(GameScene::restart));
+                   ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:868:11: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        btnmenu->addTouchEventListener(this,toucheventselector(GameScene::backmenu));   
+                 ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:873:12: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+        CCDirector::sharedDirector()->pause();
+                  ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:873:14: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+        CCDirector::sharedDirector()->pause();
+                    ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:874:8: warning: 'unscheduleAllSelectors' is deprecated [-Wdeprecated-declarations]
+        this->unscheduleAllSelectors();
+              ^
+../../../../../../cocos2d/cocos/2d/CCNode.h:1499:5: note: 'unscheduleAllSelectors' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void unscheduleAllSelectors() { unscheduleAllCallbacks(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:892:16: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        btnnextlevel->addTouchEventListener((Ref*)this,toucheventselector(GameScene::nextlevel));
+                      ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:895:11: warning: 'addTouchEventListener' is deprecated [-Wdeprecated-declarations]
+        btnmenu->addTouchEventListener((Ref*)this,toucheventselector(GameScene::backmenu));
+                 ^
+../../../../../../cocos2d/cocos/ui/UIWidget.h:309:5: note: 'addTouchEventListener' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE void addTouchEventListener(Ref* target,SEL_TouchEvent selector);
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:900:36: warning: 'UI_TEX_TYPE_LOCAL' is deprecated [-Wdeprecated-declarations]
+                ui_image->loadTexture("win1.png",UI_TEX_TYPE_LOCAL);
+                                                 ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:46:1: note: 'UI_TEX_TYPE_LOCAL' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_LOCAL = Widget::TextureResType::LOCAL;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:903:36: warning: 'UI_TEX_TYPE_LOCAL' is deprecated [-Wdeprecated-declarations]
+                ui_image->loadTexture("win2.png",UI_TEX_TYPE_LOCAL);
+                                                 ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:46:1: note: 'UI_TEX_TYPE_LOCAL' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_LOCAL = Widget::TextureResType::LOCAL;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:906:36: warning: 'UI_TEX_TYPE_LOCAL' is deprecated [-Wdeprecated-declarations]
+                ui_image->loadTexture("win3.png",UI_TEX_TYPE_LOCAL);
+                                                 ^
+../../../../../../cocos2d/cocos/ui/UIDeprecated.h:46:1: note: 'UI_TEX_TYPE_LOCAL' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE const Widget::TextureResType UI_TEX_TYPE_LOCAL = Widget::TextureResType::LOCAL;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:925:3: warning: 'CCScene' is deprecated [-Wdeprecated-declarations]
+                CCScene *pscene = Level::scene();
+                ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:749:1: note: 'CCScene' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Scene CCScene;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:926:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:926:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->replaceScene(pscene);
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:927:13: warning: 'CCDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                          ^
+../../../../../../cocos2d/cocos/deprecated/CCDeprecated.h:735:1: note: 'CCDirector' has been explicitly marked deprecated here
+CC_DEPRECATED_ATTRIBUTE typedef Director CCDirector;
+^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+../../../../../../Classes/GameScene.cpp:927:15: warning: 'sharedDirector' is deprecated [-Wdeprecated-declarations]
+                CCDirector::sharedDirector()->resume();
+                            ^
+../../../../../../cocos2d/cocos/base/CCDirector.h:149:5: note: 'sharedDirector' has been explicitly marked deprecated here
+    CC_DEPRECATED_ATTRIBUTE static Director* sharedDirector() { return Director::getInstance(); }
+    ^
+../../../../../../cocos2d/cocos/platform/CCPlatformMacros.h:274:52: note: expanded from macro 'CC_DEPRECATED_ATTRIBUTE'
+    #define CC_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                   ^
+149 warnings generated.
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libMyGame.so
