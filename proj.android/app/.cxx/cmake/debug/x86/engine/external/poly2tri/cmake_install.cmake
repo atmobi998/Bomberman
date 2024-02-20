@@ -1,4 +1,4 @@
-# Install script for directory: /home/devmob/devmob_dev/Games/Bomberman/cocos2d/external/poly2tri
+# Install script for directory: /Users/devmob/Desktop/Games/Bomberman/cocos2d/external/poly2tri
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
