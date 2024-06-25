@@ -1,4 +1,4 @@
-# Install script for directory: /Users/devmob/Desktop/Games/Bomberman
+# Install script for directory: /home/devmob/nexuszone/Games/Bomberman
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/devmob/Desktop/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/core/cmake_install.cmake")
-  include("/Users/devmob/Desktop/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/platform/cmake_install.cmake")
+  include("/home/devmob/nexuszone/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/core/cmake_install.cmake")
+  include("/home/devmob/nexuszone/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine/cocos/platform/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/devmob/Desktop/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/devmob/nexuszone/Games/Bomberman/proj.android/app/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

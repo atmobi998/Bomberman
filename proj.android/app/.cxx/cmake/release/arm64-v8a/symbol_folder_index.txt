@@ -1,0 +1,1 @@
+/home/devmob/nexuszone/Games/Bomberman/proj.android/app/build/intermediates/cmake/release/obj/arm64-v8a

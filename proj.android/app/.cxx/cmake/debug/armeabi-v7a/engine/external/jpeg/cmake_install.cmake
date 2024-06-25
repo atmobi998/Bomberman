@@ -1,4 +1,4 @@
-# Install script for directory: /Users/devmob/Desktop/Games/Bomberman/cocos2d/external/jpeg
+# Install script for directory: /home/devmob/nexuszone/Games/Bomberman/cocos2d/external/jpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
